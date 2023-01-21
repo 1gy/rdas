@@ -67,7 +67,7 @@ export const SettingsDialog: Component<{
 			aria-labelledby="alert-dialog-title"
 			aria-describedby="alert-dialog-description"
 		>
-			<DialogTitle id="alert-dialog-title">{"Settings"}</DialogTitle>
+			<DialogTitle id="alert-dialog-title">{"設定"}</DialogTitle>
 			<DialogContent>
 				<List>
 					<SettingItem
