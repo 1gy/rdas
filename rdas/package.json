@@ -1,0 +1,27 @@
+{
+  "name": "@1gy/rdas",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "lint": "rome check src",
+    "format": "rome format src",
+    "typecheck": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "@suid/vite-plugin": "^0.1.2",
+    "@tsconfig/strictest": "^1.0.2",
+    "solid-devtools": "^0.24.7",
+    "typescript": "^4.9.4",
+    "vite": "^4.0.4",
+    "vite-plugin-monkey": "^2.11.0",
+    "vite-plugin-solid": "^2.5.0"
+  },
+  "dependencies": {
+    "@suid/material": "^0.9.1",
+    "solid-js": "^1.6.9"
+  }
+}
